@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+
+  
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  .container {
+    /* width: 100%; */
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+ul,ol{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.site-header_itme_link{
+    text-decoration: none;
+}
+
+
+
+.site-header-logo{
+    width: 1000px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 125px;
+}
+.site-header-item_input{
+     
+}
+
+
+/**************************************** section-1 styles  **************************/
+.site-main_section-1{
+    width: 100%;
+    height: 580px;
+    display: flex;
+    margin: 0 auto;
+    /* margin-left: 125px; */
+    margin-top: 138px;
+    gap: 60px;
+}
+.site-main_freedom{
+    width: 490px;
+    height: 291px;
+    margin-top: 180px;
+    margin-left: 125px;
+
+}
+/* .site-main_watch{
+   overflow: hidden;
+   margin-left: 150px;
+} */
+/* .site_main_watch_logo{
+    transform: translateX(10px)
+} */
+h1{
+    font-size: 50px;
+    margin: 0;
+
+}
+p{
+    font-size: 16px;
+    margin: 0;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.site-main-section-1-btn{
+    width: 260px;
+    height: 51px;
+    background-color: #EA625C;
+    border: none;
+    margin-top: 20px;
+    color: #fff;
+}
+hr{
+    margin: 0;
+}
+
+/********************** section-2 styles *****************************/
+.site-main-section-2{
+    width: 1250px;
+    height: auto;
+    
+    margin: 0;
+    /* padding: 70px; */
+    
+}
+.section-2-nav-list{
+    gap: 80px;
+}
+.section-2-item{
+    width: 290px;
+    height: 172px;
+    background-color: #fff;
+}
+.section-2-item-p{
+    margin: 0;
+}
+.site-main-section-2-nav{
+    margin: 70px;
+    
+}
+.section-2-img{
+    width: 99px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+/******************************** section-3 styles *******************************/
+
+.site-main-section-3{
+    width: 1250px;
+    height: auto;
+    
+    padding: 70px;
+
+}
+.section-3-buy_now{
+    width: 1000px;
+    height: 600px;
+    margin-left: 50px;
+    display: flex;
+    
+}
+.section-3_right{
+    width: 400px;
+    height: auto;
+    
+
+}
+.section-3_left{
+    width: 490px;
+    height: 387px;
+    height: auto;
+    margin-top: 106px;
+
+
+}
+.section-3_img{
+    margin-left: 110px;
+}
+.section-3_p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************  SITE-FOOTER  *******************************************/
+.site-footer{
+    width: 1250px;
+    height: 830px;
+    background-image: url("../images/runners\ 1.jpeg");
+   
+    
+}
+
+.footer-start{
+    width: 490px;
+    height: 351px;
+    transform: translateX(600px) translateY(300px);
+   
+}
+.site-footer-p{
+    color: #fff;
+}
+.site-footer-h1{
+    color: #fff;
+}
+.footer-btn{
+    width: 260px;
+    height: 51px;
+    background-color: #EA635C;
+    border: none;
+    margin-top: 30px;
+    color: #fff;
+}
