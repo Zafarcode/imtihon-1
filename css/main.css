@@ -1,5 +1,12 @@
 *{
     box-sizing: border-box;
+    font-family: 'Roboto Lt';
+    src: url('./fonts/Roboto-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    
+
 }
 
 
@@ -42,7 +49,7 @@ ul,ol{
     margin-left: 125px;
 }
 .site-header-item_input{
-    border: #fff;
+    border:none;
      
 }
 
@@ -65,10 +72,8 @@ ul,ol{
 
 }
 
-h1{
+.section-1_h2{
     font-size: 50px;
-    margin: 0;
-
 }
 p{
     font-size: 16px;
